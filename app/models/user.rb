@@ -6,4 +6,5 @@ class User < ApplicationRecord
 
   has_many :articles
   has_many :fits
+  has_many :categories
 end
